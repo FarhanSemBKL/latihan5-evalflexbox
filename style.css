@@ -41,16 +41,17 @@ body {
 
 .container-dua {
     width: 800px;
-    background-color: white;
     margin: 50px auto;
     padding: 20px;
     box-sizing: content-box;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .kotak {
-    width: 160px;
+    width: 600px;
+    padding: 20px;
+
 }
 
 .kotak.satu {
@@ -64,3 +65,28 @@ body {
 .kotak.tiga {
     background-color: burlywood;
 }
+
+
+/* Latihan 3 */
+
+.container-tiga {
+    width: 600px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 28%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+

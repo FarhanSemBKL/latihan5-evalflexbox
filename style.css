@@ -90,3 +90,46 @@ body {
     width: 100%;
 }
 
+/* Latihan 4 */
+
+.container-empat {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .header {
+    width: 200px;
+    height: 200px;
+}
+
+.card .content {
+    width: 200px;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.satu {
+    background-color: bisque;
+}
+
+.dua {
+    background-color: cornflowerblue;
+}
+
+.tiga {
+    background-color: darkkhaki;
+}
+
+.content .btn {
+    padding: 5px;
+    margin: 10px 60px;
+}
+
+.content .btn:hover {
+    color: red;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(127, 131, 132) inset
+}
